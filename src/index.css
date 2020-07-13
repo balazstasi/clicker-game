@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  background-color: #ffcdd2;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  margin-bottom: 0;
+  font-size: 1.2rem;
+}
+
+p {
+  margin-top: 0;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem 0.5rem;
+}
+
+.clicker {
+  position: relative;
+  display: block;
+  width: 90vw;
+  margin: 0.5rem 0;
+  padding: 0 0.5rem;
+}
+
+.buy {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #e57373;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #bdbdbd;
+}
+
+.buy:hover {
+  background-color: #ef5350;
+}
+
+.buy:active {
+  background-color: #ef5350;
+  box-shadow: 0 5px #757575;
+  transform: translateY(4px);
+}
+
+/* .sell {
+  padding: 0.85rem 1.2rem;
+  border-color: red;
+  border-radius: 2rem;
+  outline: none;
+} */
+
+.sell {
+  padding: 15px 25px;
+  margin: 2px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #e53935;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #bdbdbd;
+}
+
+.sell:hover {
+  background-color: #d32f2f;
+}
+
+.sell:active {
+  background-color: #d32f2f;
+  box-shadow: 0 5px #757575;
+  transform: translateY(4px);
+}
+
+.disabled {
+    background-color: white;
+}

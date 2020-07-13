@@ -28,6 +28,7 @@ const App = () => {
 
   return (
     <div className="game">
+      <h1 className="title">Start Clicking!</h1>
       <Clicker amount={state.clicks.amount} dispatch={dispatch} />
       {Object.keys(state).map((tier, index) => {
         if (index === 0) {

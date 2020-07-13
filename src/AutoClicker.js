@@ -16,7 +16,7 @@ const AutoClicker = memo(({ tier, amount, cost, dispatch, enabled }) => {
         type="button"
         onClick={buy}
       >
-        {`buy ${tier}Clicker`}
+        {`Buy ${tier}Clicker`}
       </button>
       {amount > 0 && (
         <button className="sell" type="button" onClick={sell}>
