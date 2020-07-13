@@ -11,7 +11,8 @@ const AutoClicker = memo(({ tier, amount, cost, dispatch, enabled }) => {
         <p>{`This ${tier}Clicker buys and sells for ${cost}`}</p>
       </div>
       <button
-        className={`Buy ${enabled ? undefined : "disabled"}`}
+        className="buy"
+        disabled={enabled ? undefined : "disabled"}
         type="button"
         onClick={buy}
       >
